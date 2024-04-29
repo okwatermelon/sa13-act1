@@ -1,0 +1,32 @@
+body {
+    font-family: "Comic Sans MS";
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+nav ul li {
+    margin-right: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: grey;
+}
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
