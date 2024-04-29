@@ -1,0 +1,26 @@
+body {
+    font-family: "Comic Sans MS";
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .Desserts {
+    background-color: #FF0000;
+  }
+  .Starters {
+    background-color: aqua;
+  }
+  .Mains {
+    background-color: aquamarine;
+  }
+
+  h2 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    color: #333;
+  }
+  .items {
+    font-family: "Comic Sans MS";
+    color: #333;
+    margin-bottom: 8px;
+  }
